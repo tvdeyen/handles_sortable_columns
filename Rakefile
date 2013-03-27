@@ -1,7 +1,7 @@
-require "rake/rdoctask"
+require "rdoc/task"
 require "yaml"
 
-GEM_NAME = "handles_sortable_columns"
+GEM_NAME = "tvdeyen-handles_sortable_columns"
 
 begin
   require "jeweler"
@@ -9,9 +9,9 @@ begin
     gem.name = GEM_NAME
     gem.summary = "Sortable Table Columns"
     gem.description = gem.summary
-    gem.email = "alex.r@askit.org"
-    gem.homepage = "http://github.com/dadooda/handles_sortable_columns"
-    gem.authors = ["Alex Fortuna"]
+    gem.email = "tvdeyen@gmail.com"
+    gem.homepage = "https://github.com/tvdeyen/handles_sortable_columns"
+    gem.authors = ["Alex Fortuna", "Thomas von Deyen"]
     gem.files = FileList[
       "[A-Z]*",
       "*.gemspec",
